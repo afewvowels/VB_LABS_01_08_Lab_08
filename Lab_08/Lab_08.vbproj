@@ -99,6 +99,13 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="My Project\MyEvents.vb" />
+    <Compile Include="StudentBookSale.vb" />
+    <Compile Include="SummaryWindowForm.Designer.vb">
+      <DependentUpon>SummaryWindowForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SummaryWindowForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="SalesForm.resx">
@@ -110,6 +117,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SummaryWindowForm.resx">
+      <DependentUpon>SummaryWindowForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

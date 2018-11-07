@@ -1,6 +1,6 @@
 ﻿'Class Name:		BookSale
-'Programmer:		Your Name
-'Date:				Today's Date
+'Programmer:		Keith Smith
+'Date:			    7 November 2018
 'Description:		Handle book sale information.
 'Project:			Lab 9
 
@@ -13,10 +13,8 @@ Public Class BookSale
     Private Shared SalesTotalDecimal As Decimal
     Private Shared SalesCountInteger As Integer
 
-    Public Sub New(ByVal TitleIn As String, ByVal QuantityIn As Integer,
-      ByVal PriceIn As Decimal)
+    Public Sub New(ByVal TitleIn As String, ByVal QuantityIn As Integer, ByVal PriceIn As Decimal)
         ' Assign the property Values.
-
         Title = TitleIn
         Quantity = QuantityIn
         Price = PriceIn
@@ -80,13 +78,11 @@ Public Class BookSale
 
     Protected Overridable Sub CalculateExtendedPrice()
         ' Calculate the extended price.
-
         ExtendedPriceDecimal = QuantityInteger * PriceDecimal
     End Sub
 
     Protected Sub AddToTotals()
         ' Add to summary information.
-
         SalesTotalDecimal += ExtendedPriceDecimal
         SalesCountInteger += 1
     End Sub

@@ -41,6 +41,7 @@
         Me.ClearToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SummaryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.StudentCheckBox = New System.Windows.Forms.CheckBox()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -152,11 +153,23 @@
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(166, 22)
         Me.ExitToolStripMenuItem.Text = "E&xit"
         '
+        'StudentCheckBox
+        '
+        Me.StudentCheckBox.AutoSize = True
+        Me.StudentCheckBox.Location = New System.Drawing.Point(56, 115)
+        Me.StudentCheckBox.Name = "StudentCheckBox"
+        Me.StudentCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.StudentCheckBox.Size = New System.Drawing.Size(66, 17)
+        Me.StudentCheckBox.TabIndex = 10
+        Me.StudentCheckBox.Text = ":Student"
+        Me.StudentCheckBox.UseVisualStyleBackColor = True
+        '
         'SalesForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(532, 187)
+        Me.Controls.Add(Me.StudentCheckBox)
         Me.Controls.Add(Me.ExtendedPriceTextBox)
         Me.Controls.Add(Me.PriceTextBox)
         Me.Controls.Add(Me.QuantityTextBox)
@@ -189,5 +202,6 @@
     Friend WithEvents ClearToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SummaryToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents StudentCheckBox As System.Windows.Forms.CheckBox
 
 End Class

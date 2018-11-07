@@ -15,3 +15,11 @@ C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Spring\CSIS
 \\tank.ysu.local\kbsmith01\Documents\GitHub\VB_LABS_01_08_Lab_08\Lab_08\obj\Debug\Lab_08.exe
 \\tank.ysu.local\kbsmith01\Documents\GitHub\VB_LABS_01_08_Lab_08\Lab_08\obj\Debug\Lab_08.xml
 \\tank.ysu.local\kbsmith01\Documents\GitHub\VB_LABS_01_08_Lab_08\Lab_08\obj\Debug\Lab_08.pdb
+\\tank.ysu.local\kbsmith01\Documents\GitHub\VB_LABS_01_08_Lab_08\Lab_08\bin\Debug\Lab_08.exe
+\\tank.ysu.local\kbsmith01\Documents\GitHub\VB_LABS_01_08_Lab_08\Lab_08\bin\Debug\Lab_08.pdb
+\\tank.ysu.local\kbsmith01\Documents\GitHub\VB_LABS_01_08_Lab_08\Lab_08\bin\Debug\Lab_08.xml
+\\tank.ysu.local\kbsmith01\Documents\GitHub\VB_LABS_01_08_Lab_08\Lab_08\obj\Debug\Lab_08.vbprojResolveAssemblyReference.cache
+\\tank.ysu.local\kbsmith01\Documents\GitHub\VB_LABS_01_08_Lab_08\Lab_08\obj\Debug\Lab_08.SalesForm.resources
+\\tank.ysu.local\kbsmith01\Documents\GitHub\VB_LABS_01_08_Lab_08\Lab_08\obj\Debug\Lab_08.Resources.resources
+\\tank.ysu.local\kbsmith01\Documents\GitHub\VB_LABS_01_08_Lab_08\Lab_08\obj\Debug\Lab_08.vbproj.GenerateResource.Cache
+\\tank.ysu.local\kbsmith01\Documents\GitHub\VB_LABS_01_08_Lab_08\Lab_08\obj\Debug\Lab_08.SummaryWindowForm.resources
