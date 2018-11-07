@@ -1,7 +1,7 @@
-﻿' Author: Keith Smith
-' Date: 7 November 2018
-' Description: This file holds class information for a student book sale that reflects a 15% discount
-' compared to a standard book sale object
+﻿' Author:       Keith Smith
+' Date:         7 November 2018
+' Description:  This file holds class information for a student book sale that reflects a 15% discount
+'               compared to a standard book sale object
 
 Public Class StudentBookSale
     Inherits BookSale

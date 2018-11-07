@@ -8,6 +8,7 @@ Public Class SalesForm
     ' Declare the new object.
     Private TheBookSale As BookSale
     Private TheStudentBookSale As StudentBookSale
+    Private SummaryWindow As SummaryWindowForm
 
     Private Sub CalculateSaleToolStripMenuItem_Click(ByVal sender As System.Object,
      ByVal e As System.EventArgs) Handles CalculateSaleToolStripMenuItem.Click
@@ -42,10 +43,8 @@ Public Class SalesForm
 
     Private Sub SummaryToolStripMenuItem_Click(ByVal sender As System.Object,
       ByVal e As System.EventArgs) Handles SummaryToolStripMenuItem.Click
-        ' Display the sales summary information.
-        Dim SummaryWindow As New SummaryWindowForm
-
-        SummaryWindow.Show()
+        ' Display the sales summary information modally.
+        SummaryWindowForm.Show()
     End Sub
 
     ' Logic to take in textbox entries and creates a booksale object
@@ -57,6 +56,8 @@ Public Class SalesForm
                   Integer.Parse(QuantityTextBox.Text), Decimal.Parse(PriceTextBox.Text))
             ' Calculate and format the result.
             ExtendedPriceTextBox.Text = TheBookSale.ExtendedPrice.ToString("C")
+            ' Update summary window form data
+            SummaryWindowForm.UpdateSummary()
         Catch ex As Exception
             MessageBox.Show("Enter numeric data.", "R 'n R Book Sales",
               MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
@@ -72,6 +73,8 @@ Public Class SalesForm
                   Integer.Parse(QuantityTextBox.Text), Decimal.Parse(PriceTextBox.Text))
             ' Calculate and format the result.
             ExtendedPriceTextBox.Text = TheStudentBookSale.ExtendedPrice.ToString("C")
+            ' Update summary window form data
+            SummaryWindowForm.UpdateSummary()
         Catch ex As Exception
             MessageBox.Show("Enter numeric data.", "R 'n R Book Sales",
               MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
